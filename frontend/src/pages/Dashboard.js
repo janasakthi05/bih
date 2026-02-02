@@ -4,12 +4,11 @@ import {
     QrCodeIcon, 
     FolderIcon, 
     ShieldCheckIcon,
-    ChatBubbleLeftRightIcon,
     BellIcon,
     UserGroupIcon,
-    CalendarIcon,
     ArrowTrendingUpIcon
 } from '@heroicons/react/24/outline';
+
 import { emergencyAPI, recordsAPI, remindersAPI } from '../utils/api';
 
 const Dashboard = () => {
