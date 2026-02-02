@@ -4,12 +4,11 @@ import {
     BellIcon,
     PlusIcon,
     CalendarIcon,
-    ClockIcon,
     CheckCircleIcon,
-    XCircleIcon,
     PencilIcon,
     TrashIcon
 } from '@heroicons/react/24/outline';
+
 
 const Reminders = () => {
     const [reminders, setReminders] = useState([]);

@@ -7,9 +7,9 @@ import {
     BeakerIcon,
     PhoneIcon,
     EyeSlashIcon,
-    CheckCircleIcon,
     ShieldCheckIcon
 } from '@heroicons/react/24/outline';
+
 
 const EmergencyCard = () => {
     const [qrCode, setQrCode] = useState('');
